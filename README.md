@@ -14,3 +14,8 @@ This pipeline is designed to take in FASTQ files, specifically Human herpesvirus
 [<ins>SPAdes</ins>](https://github.com/ablab/spades?tab=readme-ov-file)
 
 [<ins>BLAST+</ins>](https://www.ncbi.nlm.nih.gov/books/NBK569861/)
+
+## Testing/Running the wrapper.py script
+the below command will run the wrapper with the test data and output a file titles Pipeline_Project.log with the output 
+
+<code>python PipelineProject_Lila_Nelson/wrapper.py -i PipelineProject_Lila_Nelson/test_data -o Pipeline_Project.log </code>
