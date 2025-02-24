@@ -21,4 +21,6 @@ the below command will run the wrapper with the test data and output a file titl
 
 <code>git clone https://github.com/lnelson8/PipelineProject_Lila_Nelson</code>
 
-<code>python PipelineProject_Lila_Nelson/wrapper.py -i PipelineProject_Lila_Nelson/test_data -o Pipeline_Project.log </code>
+<code>cd PipelineProject_Lila_Nelson</code>
+
+<code>python wrapper.py -i test_data -o Pipeline_Project.log </code>
