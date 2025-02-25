@@ -66,7 +66,7 @@ def kallisto(input, output, accession, metadata):
 
 # next is my sleuth command which only needs the path for the output file to write out the answers 
 def sleuth(output):
-    os.system('Rscript Pipeline_Project/sleuth.r') # the only command is calling the r.file that is uploaded on the github repo 
+    os.system('Rscript sleuth.r') # the only command is calling the r.file that is uploaded on the github repo 
     # it reads in a file that is also uploaded on the repo 
     # this function then writes the results to the output file 
     with open(output, 'a') as out:
