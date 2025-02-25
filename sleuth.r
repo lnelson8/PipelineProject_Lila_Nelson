@@ -2,7 +2,7 @@ library(sleuth)
 library(dplyr)
 
 # reading in the table that is a part of the repo that has the accession numbers and correlating conditions and paths for the kallisto output
-stab = read.table("Pipeline_Project/sleuth_input",header=TRUE)
+stab = read.table("sleuth_input",header=TRUE)
 
 # initializing sleuth with the table 
 so = sleuth_prep(stab)
