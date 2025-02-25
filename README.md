@@ -24,3 +24,5 @@ the below command will run the wrapper with the test data and output a file titl
 <code>cd PipelineProject_Lila_Nelson</code>
 
 <code>python wrapper.py -i test_data -o Pipeline_Project.log </code>
+
+To run with your own data make sure the paired end fastq files are all in the same directory and change the input (-i) to reflect the path to that directory
