@@ -19,7 +19,7 @@ This pipeline is designed to take in FASTQ files, specifically Human herpesvirus
 ## Testing/Running the wrapper.py script
 the below command will run the wrapper with the test data and output a file titles Pipeline_Project.log with the output 
 
-<code>git clone https://github.com/lnelson8/PipelineProject_Lila_Nelson</code>
+<code>git clone https://github.com/lnelson8/PipelineProject_Lila_Nelson.git</code>
 
 <code>cd PipelineProject_Lila_Nelson</code>
 
